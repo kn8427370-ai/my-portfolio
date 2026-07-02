@@ -41,3 +41,41 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+# 👋 Hi, I'm [Your Name]
+### 🚀 Full-Stack Developer | Open Source Enthusiast
+
+<p align="center">
+  <img src="https://vercel.app" alt="GitHub Stats" />
+  <img src="https://vercel.app" alt="Top Languages" />
+</p>
+
+---
+
+### 🛠️ Tech Stack & Tools
+<p align="left">
+  <!-- Replace these with badges matching your actual stack -->
+  <img src="https://shields.io" />
+  <img src="https://shields.io" />
+  <img src="https://shields.io" />
+  <img src="https://shields.io" />
+  <img src="https://shields.io" />
+</p>
+
+---
+
+### 📈 Contribution Graph Streak
+<p align="center">
+  <img src="https://herokuapp.com" alt="GitHub Streak" />
+</p>
+
+---
+
+### 📫 Connect with Me
+<p align="left">
+  <a href="https://linkedin.com" target="_blank">
+    <img src="https://shields.io" alt="LinkedIn" />
+  </a>
+  <a href="mailto:your.email@example.com">
+    <img src="https://shields.io" alt="Email" />
+  </a>
+</p>
