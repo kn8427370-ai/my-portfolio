@@ -1,0 +1,155 @@
+html<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Karanvir Singh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin-bottom: 5px;
+            color: #222;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            color: #444;
+            margin-top: 30px;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+        .contact-info a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .job, .education {
+            margin-bottom: 15px;
+        }
+        .job-title, .degree {
+            font-weight: bold;
+        }
+        .company, .school {
+            font-style: italic;
+            color: #666;
+        }
+        .date {
+            float: right;
+            color: #888;
+        }
+        ul {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills-list li {
+            display: inline-block;
+            background: #eee;
+            padding: 5px 10px;
+            margin: 5px 2px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        @media (max-width: 600px) {
+            .date {
+                float: none;
+                display: block;
+                margin-top: 5px;
+            }
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Karanvir Singh</h1>
+        <div class="contact-info">
+            Email: <a href="mailto:karanvir.singh@email.com">karanvir.singh@email.com</a> | 
+            Phone: (123) 456-7890 | 
+            GitHub: <a href="https://github.com" target="_blank">://github.com</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>Professional Summary</h2>
+        <p>A highly motivated and detail-oriented professional with a strong foundation in software development and problem-solving. Passionate about building scalable web applications and collaborating with cross-functional teams to deliver high-quality digital solutions.</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Git & GitHub</li>
+            <li>Python</li>
+            <li>React.js</li>
+            <li>SQL</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <div class="job">
+            <span class="date">Jan 2024 - Present</span>
+            <div class="job-title">Software Engineer</div>
+            <div class="company">Tech Solutions Inc.</div>
+            <ul>
+                <li>Developed and maintained responsive web applications using modern front-end frameworks.</li>
+                <li>Collaborated with designers to transform wireframes into functional, interactive UI components.</li>
+                <li>Optimized website performance, reducing page load times by 20%.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <span class="date">June 2022 - Dec 2023</span>
+            <div class="job-title">Junior Web Developer</div>
+            <div class="company">Digital Innovations Lab</div>
+            <ul>
+                <li>Assisted in building custom WordPress themes and e-commerce websites.</li>
+                <li>Fixed bugs and resolved cross-browser compatibility issues.</li>
+                <li>Utilized Git and GitHub for version control and team code reviews.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="education">
+            <span class="date">2018 - 2022</span>
+            <div class="degree">Bachelor of Science in Computer Science</div>
+            <div class="school">State University</div>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
